@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/career/registration",
+      "destination": "https://umtc-client.vercel.app"
+    },
+    {
+      "source": "/career/registration/:match*",
+      "destination": "https://umtc-client.vercel.app/:match*"
+    }
+  ]
+}
