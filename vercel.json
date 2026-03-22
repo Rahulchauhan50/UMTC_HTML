@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/career/registration/(.*)",
+      "dest": "https://umtc-client.vercel.app/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
